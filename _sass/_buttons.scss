@@ -11,9 +11,9 @@
   margin-bottom: 20px;
   padding: 8px 20px;
   @include font-size(14);
-  background-color: $black;
+  background-color: $blue;
   color: $white;
-  border: 2px solid $black !important;
+  border: 2px solid $blue !important;
   border-radius: $border-radius;
 
   &:visited {
@@ -22,7 +22,7 @@
 
   &:hover {
     background-color: $white;
-    color: $black;
+    color: $blue;
   }
 }
 

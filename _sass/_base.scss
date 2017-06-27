@@ -29,7 +29,7 @@ body {
   font-family: $base-font;
   color: $text-color;
   background-color: $body-color;
-  border-top: 5px solid $black;
+  border-top: 5px solid $blue;
 }
 
 /*
@@ -155,7 +155,7 @@ figure {
 
       &:hover {
         @include transform(translateY(-5px));
-        @include box-shadow(0 0 10px rgba($black, .20));
+        @include box-shadow(0 0 10px rgba($blue, .20));
         opacity: 1;
       }
     }
